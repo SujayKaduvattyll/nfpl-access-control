@@ -1,0 +1,27 @@
+access_id,user_id,role_id,client_id,branch_id,direction,mode,valid_from,valid_to,status,notes
+A001,U001,R001,ALL,ALL,ALL,ALL,2026-01-01,,ACTIVE,Broad Maker access
+A002,U001,R002,C001,ALL,ALL,ALL,2026-01-01,,ACTIVE,Checker for Apex Electronics
+A003,U001,R002,C002,ALL,ALL,ALL,2026-01-01,,ACTIVE,Checker for Bharat Pharmaceuticals
+A004,U002,R002,C003,B001,IMPORT,AIR,2026-01-01,,ACTIVE,Narrow Checker scope
+A005,U003,R002,C004,B002,IMPORT,ALL,2026-01-01,,ACTIVE,Checker for Delta Automotive imports at Delhi
+A006,U004,R001,C005,B001,ALL,ALL,2026-01-01,,ACTIVE,Maker for Everest Textiles at Mumbai
+A007,U005,R001,C006,B003,EXPORT,ALL,2026-01-01,,ACTIVE,Maker for Falcon Machinery exports at Chennai
+A008,U006,R002,C007,B003,EXPORT,FCL,2026-01-01,,ACTIVE,Checker for Global Retail export FCL jobs at Chennai
+A009,U007,R003,ALL,ALL,ALL,ALL,2026-01-01,,ACTIVE,Manager with broad operational scope
+A010,U008,R001,C008,B004,IMPORT,LCL,2026-01-01,,ACTIVE,Maker for Horizon Chemicals imports at Kolkata
+A011,U009,R002,C008,B004,IMPORT,LCL,2026-01-01,,ACTIVE,Checker for Horizon Chemicals imports at Kolkata
+A012,U010,R001,C009,B005,IMPORT,ALL,2026-01-01,,ACTIVE,Maker for Indigo Imports at Bengaluru
+A013,U011,R002,C009,B005,IMPORT,ALL,2026-01-01,,ACTIVE,Checker for Indigo Imports at Bengaluru
+A014,U012,R001,C010,B001,EXPORT,AIR,2026-01-01,,ACTIVE,Maker for Zenith Technologies air exports at Mumbai
+A015,U013,R003,ALL,ALL,ALL,ALL,2026-01-01,,ACTIVE,Manager with broad operational scope
+A016,U014,R001,C001,B002,IMPORT,FCL,2026-01-01,,ACTIVE,Maker for Apex Electronics FCL imports at Delhi
+A017,U015,R002,C001,B002,IMPORT,FCL,2026-01-01,,ACTIVE,Checker for Apex Electronics FCL imports at Delhi
+A018,U016,R001,C002,B001,ALL,ALL,2026-01-01,,ACTIVE,Backup Maker for Bharat Pharmaceuticals at Mumbai
+A019,U017,R001,C004,B002,IMPORT,ALL,2026-01-01,,ACTIVE,Maker responsible for Delta Automotive; user is absent
+A020,U018,R004,C001,ALL,ALL,ALL,2026-01-01,,ACTIVE,Client-side read-only access for Apex Electronics
+A021,U019,R005,ALL,ALL,ALL,ALL,2026-01-01,,ACTIVE,System administrator
+A022,U020,R006,ALL,ALL,ALL,ALL,2026-01-01,,ACTIVE,Overnight parser service account
+A023,U009,R002,C010,B001,EXPORT,AIR,2026-01-01,,ACTIVE,Arjun also checks Zenith air exports at Mumbai
+A024,U011,R002,C005,B001,ALL,ALL,2026-01-01,,ACTIVE,Rahul also checks Everest Textiles at Mumbai
+A025,U015,R002,C006,B003,EXPORT,ALL,2026-01-01,,ACTIVE,Sameer also checks Falcon exports at Chennai
+A026,U004,R002,C005,B001,ALL,ALL,2026-01-01,2026-09-30,EXPIRED,EXPIRED: Neha was a temporary Checker for Everest (changed responsibility test)

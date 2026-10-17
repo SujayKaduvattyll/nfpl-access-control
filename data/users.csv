@@ -1,0 +1,21 @@
+user_id,user_name,user_type,status
+U001,Aarav Mehta,employee,active
+U002,Priya Sharma,employee,active
+U003,Rohan Desai,employee,active
+U004,Neha Kapoor,employee,active
+U005,Vikram Singh,employee,active
+U006,Ananya Rao,employee,active
+U007,Karan Patel,employee,active
+U008,Sneha Iyer,employee,active
+U009,Arjun Nair,employee,active
+U010,Meera Joshi,employee,active
+U011,Rahul Verma,employee,active
+U012,Pooja Shah,employee,active
+U013,Dev Malhotra,employee,active
+U014,Isha Kulkarni,employee,active
+U015,Sameer Khan,employee,active
+U016,Tanya Bose,employee,active
+U017,Aditya Rao,employee,absent
+U018,Kavya Menon,client_user,active
+U019,Nikhil Gupta,admin,active
+U020,NFPL Overnight Parser,service_account,active

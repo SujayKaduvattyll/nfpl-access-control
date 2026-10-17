@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nfpl-access-control
+    runtime: python
+    plan: free
+    buildCommand: echo "no dependencies to install"
+    startCommand: python -m nfpl serve --load --host 0.0.0.0
