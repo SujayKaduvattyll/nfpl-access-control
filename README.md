@@ -134,19 +134,14 @@ Loaded by `python -m nfpl load`: **5 branches, 10 clients, 20 users, 26 assignme
 | (access) A026 | Expired temporary Checker assignment (changed responsibility); A019 absent owner |
 | (history) | Admin self-escalation attempt (DENIED) in `audit_events.csv` |
 
-## Demo (about 5 minutes)
+## ## Demo
 
-`python demo.py` walks through: access in plain terms → "why can she and he can't?" → scope denials → maker-checker →
-absent owner → filed-job cancel with two-person approval → admin self-escalation → the parser → "waiting for me" →
-one job's history and "who could have changed it on the 3rd?". To drive the live server instead, run `python -m nfpl serve`
-and try, for example:
+**Recorded walkthrough (about 5 min):** <paste your video link here>
 
-```bash
-curl "localhost:8000/explain?user_a=U002&user_b=U001&action=job.check&job_id=J006"
-curl "localhost:8000/jobs/J021/history"
-curl "localhost:8000/jobs/J021/who-could-change?date=2026-10-03"
-```
-
+You can also run the same walkthrough yourself. `python demo.py` steps through: access in plain terms → "why can she and he can't?" →
+scope denials → maker-checker → absent owner → filed-job cancel with two-person approval → admin self-escalation → the parser →
+"waiting for me" → one job's history and "who could have changed it on the 3rd?". To drive the live server instead, run
+`python -m nfpl serve` and try, for example:
 ## Each person's access, in plain terms
 
 _(generated from `data/access_assignments.csv`; the same text is in `data/ACCESS_SUMMARY.md`)_
