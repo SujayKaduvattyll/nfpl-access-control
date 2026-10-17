@@ -1,2 +1,0 @@
-delegation_id,from_user_id,to_user_id,valid_from,valid_to,created_by,notes
-DG001,U017,U014,2026-10-01,2026-10-31,U007,"Cover for absent Aditya. U014 has no Delta scope, so this grants no authority"
