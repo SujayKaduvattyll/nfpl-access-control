@@ -1,0 +1,7 @@
+role_id,role_name,description
+R001,Maker,Prepares and updates job work
+R002,Checker,Checks/approves prepared work
+R003,Manager,Higher-level operational management
+R004,Client User,Client-side read-only shipment visibility
+R005,Admin,Access/system administration
+R006,Service Account,Automated system operations
